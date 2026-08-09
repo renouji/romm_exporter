@@ -1,0 +1,6 @@
+/romm-exporter
+/dist
+*.exe
+*.out
+*.test
+.DS_Store
