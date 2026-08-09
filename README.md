@@ -112,8 +112,3 @@ go test -v ./...
 go build -ldflags="-s -w -X main.version=v0.1.0-alpha.1" -o romm-exporter .
 ```
 
----
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
