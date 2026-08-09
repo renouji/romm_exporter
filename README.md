@@ -40,8 +40,8 @@ version: '3.8'
 
 services:
   romm-exporter:
-    image: ghcr.io/romm-exporter/romm-exporter:latest
-    container_name: romm-exporter
+    image: ghcr.io/renouji/romm_exporter:latest
+    container_name: romm_exporter
     restart: unless-stopped
     ports:
       - "8585:8585"
@@ -58,11 +58,11 @@ services:
 
 ```bash
 docker run -d \
-  --name romm-exporter \
+  --name romm_exporter \
   -p 8585:8585 \
   -e ROMM_URL=http://192.168.1.100:8080 \
   -e ROMM_TOKEN=rmm_your_bearer_token_here \
-  ghcr.io/romm-exporter/romm-exporter:latest
+  ghcr.io/renouji/romm_exporter:latest
 ```
 
 ---
