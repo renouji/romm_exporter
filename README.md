@@ -2,6 +2,10 @@
 
 A lightweight, high-performance Prometheus exporter for [RomM](https://github.com/rommapp/romm) (ROM Manager) written in Go.
 
+## 📊 Grafana Dashboard Preview
+
+![RomM Exporter Grafana Dashboard](assets/dashboard-preview.png)
+
 ## Features
 
 - **Health & Version Monitoring**: Exposes system status (`romm_up`) and RomM release version (`romm_version_info`).
